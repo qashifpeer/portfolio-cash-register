@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2rem;
+   background-color: rgb(189, 214, 214);
+   padding: 1rem;
+   border-radius: 50px;
+   box-shadow: 6px 6px 5px;
+
+}
+.container .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.container .heading .heading-text{
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+}
+.container .input-box{
+    display: flex;
+    flex-direction: column;
+}
+.input-box .input{
+    padding: 0.5rem 0.4rem;
+}
+.container .input-box .input-label{
+    margin: 0.5rem 0;
+    
+}
+
+.container #msg{
+    color: red;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+}
+
+
+.container #check-btn{
+    padding: 1rem 0;
+    outline: 1px solid ;
+    border-radius: 50px;
+}
+
+.display{
+    padding: 1rem 0;
+}
+.display-heading{
+   
+    padding: 0.5rem 0;
+    background-color: rgb(7, 3, 3);
+    text-align: center;
+    color: rgb(205, 217, 228);
+}
+.table{
+    margin-top: 0.5rem;
+    border: 1px solid;
+}
+
+.table th{
+    
+    border-bottom: 1px solid;
+
+}
+.table td{
+    border: 1px solid ;
+    padding: 0.4rem 0.6rem;
+    
+}
